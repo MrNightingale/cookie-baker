@@ -2,15 +2,24 @@
   "name": "cookie-baker",
   "version": "1.0.0",
   "description": "Set, get and delete Cookies in browser.",
-  "main": "index.js",
+  "main": "dist/bundle.js",
   "author": "Vladyslav Soloviov <soloviov.v.v@gmail.com>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrnightingale/cookie-baker.git"
+  },
   "keywords": [
-    "cookies",
-    "cookie-handler"
+    "cookie",
+    "cookie-handler",
+    "browser"
   ],
+  "bugs": {
+    "url": "https://github.com/mrnightingale/cookie-baker/issues"
+  },
+  "homepage": "https://github.com/aether7/cookie-bakerr#readme",
   "license": "ISC",
   "devDependencies": {
     "webpack": "2.6.1"
