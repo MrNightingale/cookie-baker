@@ -1,6 +1,6 @@
 {
   "name": "cookie-baker",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Set, get and delete Cookies in browser.",
   "main": "dist/bundle.js",
   "author": "Vladyslav Soloviov <soloviov.v.v@gmail.com>",
