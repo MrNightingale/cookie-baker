@@ -16,23 +16,7 @@ module.exports = {
             use: {
               loader: 'babel-loader',
               options: {
-                // presets: ['@babel/preset-env']
-              }
-            }
-          },
-          {
-            test: /\.css$/,
-            use: [
-                { loader: "style-loader" },
-                { loader: "css-loader" },
-              ],
-          },
-          {
-            test: /\.(html)$/,
-            use: {
-              loader: 'html-loader',
-              options: {
-                attrs: [':data-src']
+                presets: ['@babel/preset-env']
               }
             }
           }
