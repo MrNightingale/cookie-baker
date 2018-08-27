@@ -8,7 +8,7 @@ const addDays = days => {
     return date
 }
 
-const cookieFactory = () => {
+window.cookieFactory = () => {
     const cookie = {
         getCookie: (key, isString, markAsErasable) => {
             isString = isString || false
