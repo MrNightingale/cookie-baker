@@ -3,9 +3,9 @@
 Handle cookies in a easy way
 
 Methods availables
-- [getCookie](#getCookie)
-- [setCookie](#setCookie)
-- [deleteCookie](#deleteCookie)
+- [getCookie](#getcookie)
+- [setCookie](#setcookie)
+- [deleteCookie](#deletecookie)
 
 
 ### getCookie
